@@ -18,7 +18,7 @@ const info = [
 const Information = () => {
 	return (
 		<section className="flex flex-col justify-center items-center px-4">
-			<h1 className="h1">Благотворительный фонд "Ангел"</h1>
+			<h1 className="h1">Благотворительный фонд &laquo;Ангел&raquo;</h1>
 			<div className="py-4 flex flex-col justify-center items-center gap-4">
 				<div className="flex gap-2">
 					<h4 className="font-semibold text-white/80">Учредители:</h4>

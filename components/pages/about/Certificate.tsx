@@ -7,7 +7,9 @@ const Certificate = () => {
 	const images = [img1, img2, img3];
 	return (
 		<section className="flex flex-col justify-center items-center gap-4 py-4">
-			<h2 className="h3 text-center uppercase">Свидетельства фонда "Ангел"</h2>
+			<h2 className="h3 text-center uppercase">
+				Свидетельства фонда &laquo;Ангел&raquo;
+			</h2>
 			<div className="flex flex-wrap gap-4 justify-center">
 				{images.map((image, index) => (
 					<ModalImage key={index} img={image} />

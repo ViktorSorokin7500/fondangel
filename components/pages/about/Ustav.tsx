@@ -40,7 +40,7 @@ const Ustav = () => {
 	return (
 		<section className="flex flex-col gap-4">
 			<h3 className="h3 text-center uppercase">
-				Устав Благотворительного фонда "Ангел"
+				Устав Благотворительного фонда &laquo;Ангел&raquo;
 			</h3>
 			<div className="flex flex-wrap gap-4 justify-center">
 				{images.map((image, index) => (
