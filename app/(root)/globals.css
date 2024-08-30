@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+	body {
+		@apply bg-secondary;
+	}
+	.h1 {
+		@apply text-[32px] sm:text-[48px] xl:text-[80px] text-center leading-[1.1] font-semibold;
+	}
+	.h2 {
+		@apply text-[28px] xl:text-[40px] leading-[1.1] font-semibold;
+	}
+	.h3 {
+		@apply text-[18px] xl:text-[24px] leading-[1.1] font-semibold;
+	}
+}
